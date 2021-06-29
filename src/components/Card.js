@@ -9,31 +9,31 @@ function Card () {
 					<div className="cards__container">
 						<div className="cards__wrapper">
 							<ul className='cards__items'>
-								<Carditem src='../images/Blue.jpeg' text='Professional Partner of Web Application ur Digital Solutions' label='Application' path='/services'/>
+								<Carditem src='../images/Blue.jpeg' text='Professional Partner Web or Mobile Application' label='Application' path='/services'/>
 								 <Carditem
-						              src='../images/img-2.jpg'
-						              text='Travel through the Islands of Bali in a Private Cruise'
-						              label='Luxury'
+						              src='../images/img-1.jpg'
+						              text='Extract information from large number of data sets and processing'
+						              label='Big Data'
 						              path='/services'
 						            />
 								</ul>
 								 <ul className='cards__items'>
 					            <Carditem
-					              src='../images/img-2.jpg'
-					              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-					              label='Mystery'
+					              src='../images/img-4.jpeg'
+					              text='Cybersecurity strategies that prevents unauthorized access to organizational assets such as computers, networks, and data.'
+					              label='IT Scurity'
 					              path='/services'
 					            />
 					            <Carditem
-					              src='../images/img-2.jpg'
-					              text='Experience Football on Top of the Himilayan Mountains'
-					              label='Adventure'
+					              src='../images/img-5.png'
+					              text='Seeking help and advice about business and IT problems'
+					              label='IT Consultant'
 					              path='/products'
 					            />
 					            <Carditem
-					              src='../images/img-2.jpg'
-					              text='Ride through the Sahara Desert on a guided camel tour'
-					              label='Adrenaline'
+					              src='../images/img-6.jpg'
+					              text="Analyze and confirm a company or organization's IT, technical and business needs"
+					              label='IT Analyst'
 					              path='/sign-up'
 					            />
 					          </ul>

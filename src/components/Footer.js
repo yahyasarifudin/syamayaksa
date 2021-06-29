@@ -24,35 +24,34 @@ function Footer () {
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
                         <h2>About Us</h2>
-                        <Link to='/sign-up'>How it Works</Link>
+                        <Link to='/sign-up'>Company Profile</Link>
                         <Link to='/'>Testimonials</Link>
                         <Link to='/'>Careers</Link>
-                        <Link to='/'>Investors</Link>
-                        <Link to='/'>Term of Service</Link>
+                        <Link to='/'>Partner</Link>
+                        <Link to='/'>Portofolio</Link>
                     </div>
                     <div className='footer-link-items'>
                         <h2>Contact Us</h2>
-                        <Link to='sign-up'>How it Works</Link>
-                        <Link to='/'>Testimonials</Link>
-                        <Link to='/'>Careers</Link>
-                        <Link to='/'>Investors</Link>
-                        <Link to='/'>Term of Service</Link>
+                        <Link to='sign-up'>Contact</Link>
+                        <Link to='/'>Support</Link>
+                        <Link to='/'>Destination</Link>
+                        <Link to='/'>Sponsorship</Link>
                     </div>
                     <div className='footer-link-items'>
-                        <h2>Video</h2>
-                        <Link to='sign-up'>How it Works</Link>
-                        <Link to='/'>Testimonials</Link>
-                        <Link to='/'>Careers</Link>
-                        <Link to='/'>Investors</Link>
-                        <Link to='/'>Term of Service</Link>
+                        <h2>Services</h2>
+                        <Link to='sign-up'>Application</Link>
+                        <Link to='/'>Big Data</Link>
+                        <Link to='/'>IT Scurity</Link>
+                        <Link to='/'>IT Consultant</Link>
+                        <Link to='/'>IT Analyst</Link>
                     </div>
                     <div className='footer-link-items'>
                         <h2>Social Media</h2>
-                        <Link to='sign-up'>How it Works</Link>
-                        <Link to='/'>Testimonials</Link>
-                        <Link to='/'>Careers</Link>
-                        <Link to='/'>Investors</Link>
-                        <Link to='/'>Term of Service</Link>
+                        <Link to='sign-up'>Instagram</Link>
+                        <Link to='/'>Facebook</Link>
+                        <Link to='/'>Twitter</Link>
+                        <Link to='/'>Linkedin</Link>
+                        <Link to='/'>Github</Link>
                     </div>
                 </div>
             </div>
@@ -100,6 +99,14 @@ function Footer () {
                             aria-label='linkedin'
                         >
                         <i className='fab fa-linkedin'></i>
+                        </Link>
+                        <Link 
+                            to='/' 
+                            className='social-icon-link github'
+                            target='_blank'
+                            aria-label='github'
+                        >
+                        <i className='fab fa-github'></i>
                         </Link>
 
                     </div>
