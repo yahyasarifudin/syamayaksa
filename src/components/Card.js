@@ -5,8 +5,8 @@ import './Card.css';
 function Card () {
 	return (
 			<div>
-				<h1>Check out our services!</h1>
 					<div className="cards__container">
+					<h1>Check out our services!</h1>
 						<div className="cards__wrapper">
 							<ul className='cards__items'>
 								<Carditem src='../images/Blue.jpeg' text='Professional Partner Web or Mobile Application' label='Application' path='/services'/>
